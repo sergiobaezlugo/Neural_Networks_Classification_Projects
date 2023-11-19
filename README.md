@@ -4,7 +4,7 @@ This repository contains a few projects where Neural Networks were used to solve
 ## Heart Failure Project
 
 ### Overview
-The [dataset](https://github.com/sergiobaezlugo/Neural_Networks_Classification_Projects/blob/main/heart_failure.csv) used in this project is from Kaggle to predict the survival ('death_event' column) of patients with heart failure from serum creatinine, ejection fraction, age, anemia, diabetes, etc. 
+The [dataset](https://github.com/sergiobaezlugo/Neural_Networks_Classification_Projects/blob/main/heart_failure.csv) was used to predict the survival ('death_event' column) of patients with heart failure from serum creatinine, ejection fraction, age, anemia, diabetes, etc. The dataset is from Kaggle. Here's a preview: 
 
 |index|age|anaemia|creatinine\_phosphokinase|diabetes|ejection\_fraction|high\_blood\_pressure|platelets|serum\_creatinine|serum\_sodium|sex|smoking|time|death\_event|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -16,7 +16,7 @@ The [dataset](https://github.com/sergiobaezlugo/Neural_Networks_Classification_P
 
 
 ### NN Architecture and Hyperparameters
-A simple Feedforward Neural Network with one hidden layer (12 units and ReLu activation function), and output layer with 2 units and Softmax activation function were used.
+A simple Feedforward Neural Network with one hidden layer (12 units and ReLu activation function) and output layer with 2 units (Softmax activation function) was used.
 
 Adam optimization was used with batch_size = 16, loss = sparse_categorical_crossentropy, and epochs = 100.
 
